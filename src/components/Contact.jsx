@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Send, CheckCircle } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, CheckCircle, ExternalLink } from 'lucide-react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -96,6 +96,18 @@ const Contact = () => {
               <h4>Location</h4>
               <p>Madurai, India</p>
             </div>
+          </div>
+          <div className="info-item" style={{ marginTop: '20px' }}>
+            <a 
+              href="/Mohamed_Fazil_Frontend_Developer_Resume.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="btn btn-premium"
+              aria-label="View Resume"
+              style={{ width: '100%', justifyContent: 'center' }}
+            >
+              View Full Resume <ExternalLink size={18} />
+            </a>
           </div>
         </motion.div>
 

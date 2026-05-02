@@ -51,7 +51,15 @@ const Navbar = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
           >
-            <a href="https://github.com/Mohamedfazil2004" target="_blank" rel="noreferrer" className="btn btn-outline btn-sm">Resume</a>
+            <a 
+              href="/Mohamed_Fazil_Frontend_Developer_Resume.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="btn btn-outline btn-sm"
+              aria-label="View Resume"
+            >
+              Resume
+            </a>
           </motion.li>
         </ul>
 
@@ -74,7 +82,16 @@ const Navbar = () => {
             </li>
           ))}
           <li>
-            <a href="https://github.com/Mohamedfazil2004" className="btn btn-outline" style={{marginTop: '20px'}}>Resume</a>
+            <a 
+              href="/Mohamed_Fazil_Frontend_Developer_Resume.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="btn btn-outline" 
+              style={{marginTop: '20px'}}
+              aria-label="View Resume"
+            >
+              Resume
+            </a>
           </li>
         </ul>
       </motion.div>

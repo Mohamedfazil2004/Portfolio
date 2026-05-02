@@ -49,11 +49,25 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 1.2 }}
         >
-          <a href="#projects" className="btn btn-primary">
-            View My Projects <ArrowRight size={18} />
+          <a 
+            href="/Mohamed_Fazil_Frontend_Developer_Resume.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="btn btn-premium"
+            aria-label="View Resume"
+          >
+            View Resume <ExternalLink size={18} />
           </a>
-          <a href="#contact" className="btn btn-outline">
-            Get In Touch
+          <a 
+            href="/Mohamed_Fazil_Frontend_Developer_Resume.pdf" 
+            download="Mohamed_Fazil_Resume.pdf"
+            className="btn btn-outline"
+            aria-label="Download Resume"
+          >
+            Download
+          </a>
+          <a href="#projects" className="btn btn-outline">
+            Projects
           </a>
         </motion.div>
       </div>
