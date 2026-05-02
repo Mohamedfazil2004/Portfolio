@@ -4,7 +4,7 @@ import { ExternalLink, Folder } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
 import project1 from "../assets/project_01.png";
 import project2 from "../assets/project_02.png";
-import erpProject from "../assets/erp_project.png";
+import project3 from "../assets/project_03.png";
 
 const Projects = () => {
   const projects = [
@@ -28,7 +28,7 @@ const Projects = () => {
       description: "A responsive web-based ERP system designed to manage internal workflows, data tracking, and operational processes. Built with a focus on clean UI, usability, and efficient data handling.",
       tech: ["React.js", "JavaScript", "CSS", "MySQL"],
       github: "https://github.com/Mohamedfazil2004",
-      image: erpProject,
+      image: project3,
     }
   ];
 

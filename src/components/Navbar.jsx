@@ -52,7 +52,7 @@ const Navbar = () => {
             transition={{ duration: 0.5, delay: 0.5 }}
           >
             <a 
-              href="/Mohamed_Fazil_Frontend_Developer_Resume.pdf" 
+              href="/Mohamed_Fazil_Resume.pdf" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="btn btn-outline btn-sm"
@@ -83,7 +83,7 @@ const Navbar = () => {
           ))}
           <li>
             <a 
-              href="/Mohamed_Fazil_Frontend_Developer_Resume.pdf" 
+              href="/Mohamed_Fazil_Resume.pdf" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="btn btn-outline" 

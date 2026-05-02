@@ -50,7 +50,7 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 1.2 }}
         >
           <a 
-            href="/Mohamed_Fazil_Frontend_Developer_Resume.pdf" 
+            href="/Mohamed_Fazil_Resume.pdf" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="btn btn-premium"
@@ -59,7 +59,7 @@ const Hero = () => {
             View Resume <ExternalLink size={18} />
           </a>
           <a 
-            href="/Mohamed_Fazil_Frontend_Developer_Resume.pdf" 
+            href="/Mohamed_Fazil_Resume.pdf" 
             download="Mohamed_Fazil_Resume.pdf"
             className="btn btn-outline"
             aria-label="Download Resume"

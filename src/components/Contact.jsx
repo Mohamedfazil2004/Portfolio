@@ -99,7 +99,7 @@ const Contact = () => {
           </div>
           <div className="info-item" style={{ marginTop: '20px' }}>
             <a 
-              href="/Mohamed_Fazil_Frontend_Developer_Resume.pdf" 
+              href="/Mohamed_Fazil_Resume.pdf" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="btn btn-premium"
