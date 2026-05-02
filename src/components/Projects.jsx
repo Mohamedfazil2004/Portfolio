@@ -4,6 +4,7 @@ import { ExternalLink, Folder } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
 import project1 from "../assets/project_01.png";
 import project2 from "../assets/project_02.png";
+import erpProject from "../assets/erp_project.png";
 
 const Projects = () => {
   const projects = [
@@ -23,11 +24,11 @@ const Projects = () => {
 
     },
     {
-      title: "Professional Portfolio",
-      description: "The very website you are browsing! Designed to showcase development skills and projects with a premium dark-themed aesthetic and smooth animations.",
-      tech: ["React.js", "Framer Motion", "CSS Variables", "Lucide Icons"],
+      title: "ERP Management System",
+      description: "A responsive web-based ERP system designed to manage internal workflows, data tracking, and operational processes. Built with a focus on clean UI, usability, and efficient data handling.",
+      tech: ["React.js", "JavaScript", "CSS", "MySQL"],
       github: "https://github.com/Mohamedfazil2004",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000"
+      image: erpProject,
     }
   ];
 
