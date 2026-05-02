@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink, Folder } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
+import project1 from "../assets/project_01.png";
+import project2 from "../assets/project_02.png";
 
 const Projects = () => {
   const projects = [
@@ -10,14 +12,15 @@ const Projects = () => {
       description: "A comprehensive Customer Relationship Management platform built with React.js. Features include user authentication, customer tracking, and interactive dashboards.",
       tech: ["React.js", "Context API", "CSS3", "REST API"],
       github: "https://github.com/Mohamedfazil2004",
-      image: "./src/assets/project_01.png"
+      image: project1,
     },
     {
       title: "College Landing Pages",
       description: "Modern, responsive landing pages for educational institutions. Optimized for performance and user conversion with clean typography and intuitive navigation.",
       tech: ["HTML5", "CSS3", "JavaScript", "AOS Library"],
       github: "https://github.com/Mohamedfazil2004",
-      image: "./src/assets/project_02.png"
+      image: project2,
+
     },
     {
       title: "Professional Portfolio",
