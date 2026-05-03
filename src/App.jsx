@@ -48,17 +48,47 @@ const App = () => {
             }}
           >
             <motion.div
-              initial={{ scale: 0.8, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              transition={{ duration: 0.5, repeat: Infinity, repeatType: "reverse" }}
               style={{
-                fontSize: '3rem',
-                fontWeight: 'bold',
+                fontSize: 'clamp(1rem, 4vw, 2rem)',
+                fontWeight: '600',
                 color: '#64ffda',
-                fontFamily: 'Outfit, sans-serif'
+                fontFamily: 'monospace',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '5px'
               }}
             >
-              M
+              <motion.div
+                style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}
+                initial="hidden"
+                animate="visible"
+              >
+                {"Mohamed Fazil | Portfolio".split("").map((char, index) => (
+                  <motion.span
+                    key={index}
+                    variants={{
+                      hidden: { opacity: 0, display: 'none' },
+                      visible: { opacity: 1, display: 'inline' }
+                    }}
+                    transition={{
+                      duration: 0.05,
+                      delay: 0.3 + index * 0.05
+                    }}
+                  >
+                    {char === " " ? "\u00A0" : char}
+                  </motion.span>
+                ))}
+              </motion.div>
+              <motion.span
+                animate={{ opacity: [0, 1, 0] }}
+                transition={{ duration: 0.8, repeat: Infinity, ease: "linear" }}
+                style={{
+                  width: '3px',
+                  height: '1.2em',
+                  background: '#a855f7',
+                  marginLeft: '2px'
+                }}
+              />
             </motion.div>
           </motion.div>
         ) : (

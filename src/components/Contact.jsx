@@ -171,7 +171,7 @@ const Contact = () => {
             >
               <CheckCircle size={32} className="text-cyan" />
               <h3>Message Sent Successfully!</h3>
-              <p>Thank you for reaching out, Mohamed Fazil G. I have received your details and will get back to you as soon as possible!</p>
+              <p>Thank you for reaching out, Mohamed Fazil. I have received your details and will get back to you as soon as possible!</p>
               <button className="btn btn-outline btn-sm" onClick={() => setFormStatus('idle')} style={{marginTop: '15px'}}>
                 Send Another Message
               </button>

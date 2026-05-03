@@ -11,7 +11,7 @@ const Projects = () => {
     {
       title: "CRM Web Application",
       description: "A comprehensive Customer Relationship Management platform built with React.js. Features include user authentication, customer tracking, and interactive dashboards.",
-      tech: ["React.js", "Context API", "CSS3", "REST API"],
+      tech: ["React.js", "Context API", "CSS3", "Mongo DB"],
       github: "https://github.com/Mohamedfazil2004",
       image: project1,
     },
@@ -35,7 +35,7 @@ const Projects = () => {
   return (
     <div className="projects-container">
       <div className="section-title">
-        <h2>Some Things I've Built</h2>
+        <h2>Work & Contributions</h2>
       </div>
 
       <div className="projects-grid">

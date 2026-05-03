@@ -10,7 +10,7 @@ const Footer = () => {
       </div>
       <div className="footer-info">
         <a href="https://github.com/Mohamedfazil2004" target="_blank" rel="noreferrer">
-          Designed & Built by Mohamed Fazil G
+          Designed & Built by Mohamed Fazil
         </a>
         <p>&copy; {new Date().getFullYear()} All Rights Reserved.</p>
       </div>
