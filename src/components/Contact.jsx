@@ -97,14 +97,13 @@ const Contact = () => {
               <p>Madurai, India</p>
             </div>
           </div>
-          <div className="info-item" style={{ marginTop: '20px' }}>
+          <div className="info-item resume-btn-container">
             <a 
               href="/Mohamed_Fazil_Resume.pdf" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="btn btn-premium"
               aria-label="View Resume"
-              style={{ width: '100%', justifyContent: 'center' }}
             >
               View Full Resume <ExternalLink size={18} />
             </a>

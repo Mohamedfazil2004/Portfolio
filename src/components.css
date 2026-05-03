@@ -761,29 +761,62 @@
     display: block;
     z-index: 1001;
   }
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: left;
+  }
+  .about-identity {
+    justify-content: flex-start;
+  }
+  .identity-card {
+    padding: 25px;
+    margin-left: 0;
+  }
   .mobile-nav {
     display: flex;
     position: fixed;
     top: 0;
     right: 0;
-    width: 75%;
+    width: min(300px, 80%);
     height: 100vh;
-    background: var(--bg-secondary);
+    background: rgba(17, 34, 64, 0.98);
+    backdrop-filter: blur(10px);
     z-index: 1000;
     justify-content: center;
     align-items: center;
-    box-shadow: -10px 0 30px -15px rgba(2, 12, 27, 0.7);
+    box-shadow: -10px 0 30px rgba(2, 12, 27, 0.5);
     flex-direction: column;
+    border-left: 1px solid rgba(100, 255, 218, 0.1);
   }
   .mobile-nav ul {
-    text-align: center;
+    width: 100%;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
   .mobile-nav li {
-    margin-bottom: 30px;
+    margin-bottom: 0;
+    text-align: left;
+    width: 100%;
   }
   .mobile-nav a {
-    font-size: 1.2rem;
-    display: block;
+    font-size: 1.1rem;
+    font-family: monospace;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .mobile-nav a::before {
+    content: "▹";
+    color: var(--accent-cyan);
+  }
+  .mobile-nav .btn {
+    margin-top: 20px !important;
+    width: 100%;
+    justify-content: center;
   }
   .hero-container {
     flex-direction: column-reverse;
@@ -806,17 +839,6 @@
     width: 100%;
     max-width: 300px;
     margin: 0 auto;
-  }
-  .about-content {
-    grid-template-columns: 1fr;
-    gap: 40px;
-    text-align: center;
-  }
-  .about-identity {
-    justify-content: center;
-  }
-  .identity-card {
-    padding: 25px;
   }
   .project-featured {
     display: flex;
@@ -867,6 +889,22 @@
   .contact-grid {
     grid-template-columns: 1fr;
     gap: 40px;
+  }
+  .contact-container {
+    text-align: left;
+  }
+  .contact-info {
+    align-items: flex-start;
+  }
+  .resume-btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+  }
+  .resume-btn-container .btn {
+    width: auto;
+    min-width: 200px;
   }
 }
 
