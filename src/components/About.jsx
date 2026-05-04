@@ -68,7 +68,7 @@ const About = () => {
                 <label>Status</label>
                 <div className="status-badge">
                   <span className="pulse-dot"></span>
-                  Open to Internship Opportunities
+                  Open to Job Opportunities
                 </div>
               </div>
             </div>

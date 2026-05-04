@@ -64,7 +64,7 @@ const Contact = () => {
         <span className="text-cyan monospace">What's Next?</span>
         <h2 className="contact-title">Get In Touch</h2>
         <p className="contact-desc">
-          I'm currently looking for internship opportunities to grow my skills and contribute to exciting projects. 
+          I'm currently looking for full-time job opportunities to grow my skills and contribute to exciting projects. 
           Whether you have a question or just want to say hi, I'll try my best to get back to you!
         </p>
       </div>
